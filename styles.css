@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css?family=Russo+One');
+
+body {
+  font-family: Russo One;
+}
+
+
+body {
+    user-select: none;
+    background-color: #8d8d8d;
+    margin-top: 0px;
+    }
+
+
+    #root {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+
+   h1 {
+    background-color: #b3b3b3;
+   } 
+
+  .inner-container {
+    outline: 5px solid black;
+    position: relative;
+    width: 660px;
+    text-align: center;
+    background-color: #3492eb;
+    margin: auto;
+    margin-top: 0%;
+    top: 100px;
+  }
+
+  .inner-container .pad-bank {
+    width: 332px;
+    height: 272px;
+    display: inline-block;
+    margin: 20px;
+  }
+
+  .inner-container .pad-bank .drum-pad {
+    
+    position: relative ;
+    float: left;
+    width: 100px;
+    height: 80px;
+    margin-right: 10px;
+    border-radius: 5px;
+    padding-top: 35px;
+    box-sizing: border-box;
+    cursor: pointer;
+  }
+  
+  .inner-container .controls-container  p {
+    margin-bottom: 0;
+}
+    #boost-logo {
+        position: absolute;
+        top: 50%;
+        right: 2%;
+        height: 35px;
+    }
+
+    #display {
+        position: absolute;
+        left: 3%;
+        top: 20%;
+        width: 200px;
+        background-color: black;
+        color: white;
+        margin: auto;
+        padding: 20px;
+        box-sizing: border-box;
+        
+    }
+
+    #volume-text {
+        position: absolute;
+        left: 9%;
+        top: 40%;
+    }
+
+    #volume-slider {
+        position: absolute;
+        left: 3%;
+        top: 48%;
+        max-width: 25%;
+    }
+
+  
+.inner-container .controls-container .control .inner {
+  width: 23px;
+  height: 19px;
+  background: blue;
+  border: 1px solid black;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.outer-select,
+.inner-container .controls-container .control .select {
+  margin: auto;
+  border: 1px solid black;
+  width: 50px;
+  height: 20px;
+  padding: 1px;
+  background-color: black;
+}
+
+  
+
+.top,.middle,.bottom {
+    
+    top: 5%;
+    position: static;
+    left: 20%;
+}
+
+button {
+    width: 60px;
+    height: 80px;
+    background-size: 400px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+@media screen and (max-width: 650px) {
+    .inner-container {
+      transform: scale(0.7);
+    }
+  }
+

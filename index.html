@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Drum-Machine</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css" />
+    <pre>Cannot GET /favicon.ico</pre>
+    
+</head>
+
+  
+
+  <body class="bg-secondary align- text-center">
+    <div id="drum-machine" class="inner-container">
+        <h1 class="text-center">KingGoku90 - Drum-Machine</h1>
+        <div id="pad-bank" class="text-center">
+
+            <!-- Top Row Buttons Q,W,E-->
+
+            <div id="row" class="top">
+                <button id="Chord-1" class="drum-pad text-center btn btn-group-lg btn-dark col-1 my-2" onclick="play('Q')">Q
+                    <audio class="clip" id="Q" src="./clips/Chord_1.mp3"></audio>
+                </button>
+                <button id="Chord-2" class="drum-pad text-center btn btn-group-lg btn-dark col-1 my-2" onclick="play('W')">W
+                    <audio class="clip" id="W" src="./clips/Chord_2.mp3"></audio>
+                </button>
+                <button id="Chord-3" class="drum-pad text-center btn btn-group-lg btn-dark col-1 my-2" onclick="play('E')">E
+                    <audio class="clip" id="E" src="./clips/Chord_3.mp3"></audio>
+                </button>                
+            </div>
+
+            <!-- Middle Row Buttons A,S,D-->
+            
+            <div id="row" class="middle">
+                <button id="Shaker" class="drum-pad text-center btn btn-group-lg btn-dark col-1 my-2" 
+                onclick="play('A')">A
+                    <audio class="clip" id="A" src="./clips/Give_us_a_light.mp3"></audio>
+                </button>
+                <button id="Open-HH" class="drum-pad text-center btn btn-group-lg btn-dark col-1 my-2" onclick="play('S')">S
+                    <audio class="clip" id="S" src="./clips/Dry_Ohh.mp3"></audio>
+                </button>
+                <button id="Closed-HH" class="drum-pad text-center btn btn-group-lg btn-dark col-1 my-2" onclick="play('D')">D
+                    <audio class="clip" id="D" src="./clips/Bld_H1.mp3"></audio>
+                </button> 
+            </div> 
+
+            <!-- Bottom Row Buttons Z,X,C-->
+
+            <div id="row" class="bottom">
+                <button id="Punchy-Kick" class="drum-pad text-center btn btn-group-lg btn-dark col-1 my-2" onclick="play('Z')">Z
+                    <audio class="clip" id="Z" src="./clips/punchy_kick_1.mp3"></audio>
+                </button>
+                <button id="Side-Stick" class="drum-pad text-center btn btn-group-lg btn-dark col-1 my-2" onclick="play('X')">X
+                    <audio class="clip" id="X" src="./clips/side_stick_1.mp3"></audio>
+                </button>
+                <button id="Snare" class="drum-pad text-center btn btn-group-lg btn-dark col-1 my-2" onclick="play('C')">C
+                    <audio class="clip" id="C" src="./clips/Brk_Snr.mp3"></audio>
+                </button>
+            </div>
+        
+            <div class="logo">
+                <div class="inner-log">
+                    <img src="https://images2.imgbox.com/76/cb/8MUlpNYe_o.png" id="boost-logo" >
+                </div>
+                
+            </div>
+
+                    
+            <div class="controls-container">
+                
+                <p id="display" class="">&nbsp;</p>  
+            </div>
+
+        
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </body>
+</html>
