@@ -1,5 +1,4 @@
-# Drum-Machine
-## By KingGoku90
+# Drum-Machine - By KingGoku90
 
 See this project [here](https://kinggoku910.github.io/drum-machine/)
 
